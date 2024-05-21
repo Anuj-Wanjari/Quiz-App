@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             selectedChoice.classList.add(classToApply);
-            selectedChoice.classList.add('selected', 'no-hover');
+            selectedChoice.classList.add('no-hover');
 
             setTimeout(() => {
                 currentQuestionIndex++;
